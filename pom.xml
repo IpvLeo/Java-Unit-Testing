@@ -6,6 +6,8 @@
   <properties>
   	<java.version>21</java.version>
   	<junit.version>5.10.3</junit.version>
+  	<hamcrest.version>3.0</hamcrest.version>
+  	<mockito.version>5.12.0</mockito.version>
   	<maven.compiler.target>21</maven.compiler.target>
   	<maven.compiler.source>21</maven.compiler.source>
   	
@@ -22,6 +24,29 @@
 	    <version>${junit.version}</version>
 	    <scope>test</scope>
 	</dependency>
+	
+
+	<dependency>
+	    <groupId>org.mockito</groupId>
+	    <artifactId>mockito-junit-jupiter</artifactId>
+	    <version>${mockito.version}</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.mockito</groupId>
+	    <artifactId>mockito-inline</artifactId>
+	    <version>${mockito.version}</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.hamcrest</groupId>
+	    <artifactId>hamcrest-library</artifactId>
+	    <version>${hamcrest.version}</version>
+	    <scope>test</scope>
+	</dependency>
+
 
   
   
